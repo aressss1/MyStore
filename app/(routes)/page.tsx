@@ -4,7 +4,7 @@ import Billboard from "@/components/billboard";
 import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
 
-export const revalide = 0
+export const revalidate = 0;
 
 export default async function HomePage() {
   //get the billboard Id
