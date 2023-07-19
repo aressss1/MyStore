@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domins: [
-            'res.cloudinary.com'
-        ]
+      domains: [
+        "tailwindui.com",
+        "res.cloudinary.com"
+      ]
     }
-}
-
-module.exports = nextConfig
+  }
+  
+  module.exports = nextConfig
