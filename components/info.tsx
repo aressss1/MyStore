@@ -12,11 +12,11 @@ const Info: React.FC<InfoProps> = ({
     data
 }) => {
 
-    const cart = useCart();
+    // const cart = useCart();
 
-    const onAddToCart = () => {
-      cart.addItem(data);
-    }
+    // const onAddToCart = () => {
+    //   cart.addItem(data);
+    // }
 
     return (
         <div>
@@ -49,7 +49,9 @@ const Info: React.FC<InfoProps> = ({
                 </div>
             </div>
             <div className="mt-10 flex items-center gap-x-3" >
-                <Button onClick={onAddToCart}  className="flex items-center gap-x-2" >
+                <Button 
+                    // onClick={onAddToCart} 
+                     className="flex items-center gap-x-2" >
                     Add To Cart
                     <ShoppingCart />
                 </Button>
