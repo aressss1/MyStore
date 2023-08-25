@@ -5,9 +5,11 @@ import Info from "@/components/info"
 import ProductList from "@/components/product-list"
 import Container from "@/components/ui/container"
 
+export const revalidate = 0;
+
 interface ProductPageProps {
   params: {
-    productId: string
+    productId: string;
   }
 }
 
