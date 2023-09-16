@@ -1,5 +1,44 @@
 # Full Stack E-Commerce Custom Store For Admin Dashboard + CMS
 
+
+### Prerequisites
+
+**Node version 14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/AntonioErdeljac/next13-ecommerce-store.git
+```
+
+### Install packages
+
+```shell
+npm i
+```
+
+### Setup .env file
+
+
+```js
+NEXT_PUBLIC_API_URL=
+```
+
+
+### Start the app
+
+```shell
+npm run dev
+```
+
+## Available commands
+
+Running commands with npm `npm run [command]`
+
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `dev`           | Starts a development instance of the app |
+
 ## Preview 
 
 ![Screenshot (166)](https://github.com/aressss1/custom-ecom-store/assets/127649710/8e7ac932-2a26-4741-989f-201303fabe55)
@@ -17,24 +56,3 @@
 ![Screenshot (179)](https://github.com/aressss1/custom-ecom-store/assets/127649710/c543acde-5201-49d4-abec-cc05aa1faccb)
 ![Screenshot (180)](https://github.com/aressss1/custom-ecom-store/assets/127649710/29b2db65-eaa7-4232-8723-98464e2d52c3)
 
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
