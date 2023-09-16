@@ -8,7 +8,7 @@
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ecommerce-store.git
+git clone https://github.com/aressss1/custom-ecom-store.git
 ```
 
 ### Install packages
